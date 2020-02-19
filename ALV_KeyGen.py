@@ -59,8 +59,8 @@ def main():
     data.append('-')  # 第三个-
     data.append(random.randint(100, 999))  # 第11~13位必须为int型
     data.append('-')  # 第四个-
-    data.append(random.randint(1, 9))  # 第14位随机
-    data.append(random.randint(2, 3))  # 第15位必须为2或3
+    data.append(random.randint(1, 9))  # 第15位随机
+    data.append(random.randint(2, 3))  # 第16位必须为2或3
     data = "".join('%s' % i for i in data).upper()
     checkValidCode(data)
 
